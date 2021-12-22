@@ -1,0 +1,349 @@
+body, html {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+@font-face {
+    font-family: "ModernSans-Light";
+    src: url("ModernSans-Light.otf");
+   }
+
+
+
+/* Partie header */
+
+header {
+    background-color: #f38e59;
+
+}
+
+.navigateurs {
+    display: flex;
+    background-color: #f38e59;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+/* Liens de la nav */
+.liens {
+    color: white;
+    text-decoration: none;
+    font-family: 'ModernSans-Light';
+    font-weight: bolder;
+    margin-top: 1%;
+}
+
+.all {
+    display: contents;
+
+}
+
+/* Ls boutons du header se trouvent ici*/
+.navBtn {
+    font-size: 12px;
+    color: white;
+    background-color: rgb(2, 32, 47);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 0 2%;
+    display: flex;
+    align-items: center;
+    
+    padding: 0.9375rem 2rem;
+}
+
+.navBtn2 {
+    background-color: #f38e59;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    border: solid 2px white;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 2%;
+    
+    padding-top: 0.9375rem;
+    padding-right: 2rem;
+    padding-bottom: 0.9375rem;
+    padding-left: 2rem;
+
+}
+
+.boutons {
+display: block ruby;
+
+}
+
+
+.titresheader {
+    margin-top: -8%;
+
+}
+
+/* Titre du header "contact us" */
+.contact {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 4.5em;
+    
+    padding-top: 4em;
+
+}
+
+/* Deuxieme titre du header*/
+.titre2 {
+    text-align: center;
+    font-family: 'ModernSans-Light';
+    color: #333;
+    font-size: 1.2em;
+    font-weight: bolder;
+    line-height: 1.5em;
+    margin-top: -4%;
+    padding-bottom: 5%;
+}
+/* Fin de la partie header */
+
+
+
+
+/* Partie Asides */
+
+main {
+display: flex;
+margin-bottom: 6%;
+
+}
+/* Titres des deux asides */
+.titreaside {
+   color: #5BB5DE;
+   text-transform: uppercase;
+   font-size: 1.9em;
+   font-family: sans-serif;
+   padding-top: 2.2em;
+   font-weight: 300;
+}
+
+/* Titre secondaire de l'aside 2 */
+.h3 {
+    margin-top: 7%;
+    margin-bottom: 2%;
+    font-size: 30px;
+    font-family: 'ModernSans-Light';
+    color: #333;
+
+}
+
+
+.p {
+font-family: 'ModernSans-Light';
+font-size: 19px;
+
+}
+
+
+/* Ici commence la partie Aside numero 1 */
+.Firstaside {
+margin-left: 5%;
+
+}
+
+/* Formulaire */
+input {
+    font-style: italic;
+    font-family: 'ModernSans-Light';
+    margin-bottom: 5%;
+    color: #7F8C97;
+    border: 1px solid #C0C6CC;
+    width: 120%;
+    height: 35px;
+    
+    border-radius: 0.4rem;
+}
+
+.message {
+    padding-bottom: 30%;
+
+}
+
+
+.submit {
+    background-color: #F49B6C;
+    color: white;
+    font-family: sans-serif;
+
+    padding-top: 1.6rem;
+    padding-right: 3.3rem;
+    padding-bottom: 1.5rem;
+    padding-left: 3.3rem;
+
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 30%;
+    border: none;
+    border-radius: 8px;
+}
+
+.button {
+    margin-left: 78%;
+
+}
+
+/* Fin du formulaire et de l'aside numero 1 */
+
+
+/* Début de la partie aside numero 2 */
+.SecondAside {
+    margin-right: 5%;
+    margin-left: 15%;
+
+}
+
+
+
+/* La zone de texte dans les deux asides (p) */
+.texte {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'ModernSans-Light';
+}
+
+
+
+.reseaux {
+    display: flex;
+
+}
+
+.Liens2 {
+    color: #f38e59;
+    text-decoration: none;
+
+}
+
+img {
+    margin-top: -2%;
+}
+
+/* Fin de de l'aside numéro 2 */
+
+/* Début du footer */
+.footer {
+    background-color: #404040;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footertitre {
+
+    color: white;
+    font-family: 'ModernSans-Light';
+    font-weight: bolder;
+}
+
+
+.list {
+    text-decoration: none;
+    font-family: 'ModernSans-Light';
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.6rem;
+    list-style: none;
+}
+
+
+.h3Footer {
+    font-family: 'ModernSans-Light';
+    color: white;
+
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+.follow {
+    color: #F49B6C;
+    font-size: 20px;
+
+}
+
+.textefooter {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'ModernSans-Light';
+}
+
+.footerBtn {
+
+    font-size: 12px;
+    color: white;
+    font-size: 0.8em;
+    background-color: rgb(2, 32, 47);
+    text-decoration: none;
+    font-family: 'ModernSans-Light';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: inline-block;
+         
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+    margin: 2%;
+        
+    padding-top: 0.9375rem;
+    padding-right: 2rem;
+    padding-bottom: 0.9375rem;
+    padding-left: 2rem;
+
+
+}
+
+.footerCopyright {
+    background-color: #333;
+    font-family: 'ModernSans-Light';
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1em;
+    padding-left: 2%;
+}
+
+
+
+/* Ici commence le responsive */
+
+@media screen and (max-width:680px) {
+    header  {
+      flex-direction: column;
+    }
+    .respons{
+      display:none;
+    }
+    main{
+      display: flex;
+      flex-direction: column;
+    }
+ .footer{
+   display: flex;
+   flex-direction: column;
+ }
+ .inpute input{
+   /* width:50%;
+   height:50%; */
+   width: 70%; 
+ }
+ .footerCopyright {
+   display: flex;
+   flex-direction: column;
+ }
+  }
